@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.card {
+  margin: 30px auto;
+  width: 600px;
+  height: 500px;
+  border-radius: 40px;
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
+  background-color: white;
+  margin-top: 100px;
+}
+
+.card:hover {
+  transform: scale(0.9, 0.9);
+  box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
+    -5px -5px 30px 15px rgba(0,0,0,0.22);
+}
+
+.form {
+  justify-content: center;
+  display: block;
+}
+
+input {
+  font-size: 18px;
+  padding:10px 10px 10px 5px;
+  margin: 20px;
+  display:inline-block;
+  justify-content: center;
+  margin-right: 50px;
+  padding-right: 100px;
+  width: 380px;
+  justify-content: center;
+  margin-left: 50px;
+  border-color: black;
+  border: 2px solid red;
+  border-radius: 8px;
+  margin-top: 33px;
+}
+
+
+
+input:hover {
+  border-color: pink;
+}
+
+input:focus {
+  border: none;
+}
+
+textarea {
+  font-size: 18px;
+  padding:10px 10px 10px 5px;
+  margin: 5px;
+  margin-top: 20px;
+  display:block;
+  margin-right: 50px;
+  padding-right: 100px;
+  width: 380px;
+  justify-content: center;
+  margin-left: 50px;
+  border-color: black;
+  border: 2px solid rgb(243, 119, 70);
+}
+
+textarea:focus {
+  border: none;
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  border-radius: 5px;
+  margin-left: 430px;
+  margin-top: 10px;
+}
+
+.radio {
+  margin-left: 60px;
+}
+
+.agree {
+  text-decoration: none;
+}
