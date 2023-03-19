@@ -58,6 +58,9 @@ export default function Contact() {
     const classes = useStyles();
     return (
         <div className="container mt-5">
+            <div className="form">
+                <h1>Contact Form</h1>
+            </div>
             <form class="card" ref={form} onSubmit={sendEmail}>
                 <div className="mb-3 name">
                     <input className="form-control" type="text" name="user_name" id="name" placeholder="Name" required />

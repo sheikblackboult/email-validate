@@ -116,3 +116,10 @@ textarea:focus {
 .agree {
   text-decoration: none;
 }
+
+.form h1 {
+  display: block;
+  justify-content: center;
+  margin-left: 650px;
+  color: #23d5ab;
+}
